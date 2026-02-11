@@ -6,7 +6,7 @@ import psycopg2
 
 load_dotenv()
 
-CONNECTION = None # paste connection string here or read from .env file
+CONNECTION = os.getenv("DB_URL")
 
 DROP_TABLE = "DROP TABLE podcast, podcast_segment"
 
