@@ -82,8 +82,3 @@ fast_pg_insert(
     "podcast_segment",
     ["id", "start_time", "end_time", "content", "embedding", "podcast_id"]
 )
-
-
-
-
-conn.close()
